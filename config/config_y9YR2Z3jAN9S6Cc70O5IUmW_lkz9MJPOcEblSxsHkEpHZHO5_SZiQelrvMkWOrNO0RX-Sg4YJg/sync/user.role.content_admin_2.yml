@@ -1,0 +1,9 @@
+uuid: 8ae5e5b1-9a92-485a-9588-25bd6b5465b3
+langcode: en
+status: true
+dependencies: {  }
+id: content_admin_2
+label: 'Content admin 2'
+weight: 6
+is_admin: null
+permissions: {  }

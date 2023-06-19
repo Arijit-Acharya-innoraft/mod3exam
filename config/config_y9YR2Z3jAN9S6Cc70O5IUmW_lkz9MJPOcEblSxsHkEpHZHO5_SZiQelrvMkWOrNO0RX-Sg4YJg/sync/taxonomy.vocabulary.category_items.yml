@@ -1,0 +1,8 @@
+uuid: 8b5ba44b-2b86-457c-9e1e-99ce046c0107
+langcode: en
+status: true
+dependencies: {  }
+name: 'Category Items'
+vid: category_items
+description: 'Use category items to store different types of items  available'
+weight: 0

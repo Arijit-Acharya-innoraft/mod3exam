@@ -1,0 +1,21 @@
+uuid: d3933979-a2e6-4d6a-8fbd-4b7570bf4d60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_items_description
+    - node.type.categories
+  module:
+    - text
+id: node.categories.field_items_description
+field_name: field_items_description
+entity_type: node
+bundle: categories
+label: Items-Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

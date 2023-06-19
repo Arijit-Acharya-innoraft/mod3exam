@@ -1,0 +1,23 @@
+uuid: c7cbdbf9-f39e-47cd-86ff-843a67b38d09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_price
+    - node.type.categories
+id: node.categories.field_item_price
+field_name: field_item_price
+entity_type: node
+bundle: categories
+label: 'Item Price'
+description: 'Price of item'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ₹
+  suffix: ''
+field_type: float

@@ -1,0 +1,10 @@
+uuid: a82cc3bd-2239-451a-80c6-9df57e427763
+langcode: en
+status: true
+dependencies: {  }
+id: multi_image_banner
+label: 'MULTI IMAGE BANNER'
+icon_uuid: null
+icon_default: null
+description: 'This paragraph is used for acquiring the data of multi image banner .'
+behavior_plugins: {  }

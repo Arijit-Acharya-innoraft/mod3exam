@@ -1,0 +1,45 @@
+uuid: bd21b70d-6f9e-4490-aa93-ac13bba0d17d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.multi_image_banner.field_banner_button_
+    - field.field.paragraph.multi_image_banner.field_banner_image
+    - field.field.paragraph.multi_image_banner.field_heading
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.multi_image_banner
+  module:
+    - image
+    - link
+id: paragraph.multi_image_banner.default
+targetEntityType: paragraph
+bundle: multi_image_banner
+mode: default
+content:
+  field_banner_button_:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_banner_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

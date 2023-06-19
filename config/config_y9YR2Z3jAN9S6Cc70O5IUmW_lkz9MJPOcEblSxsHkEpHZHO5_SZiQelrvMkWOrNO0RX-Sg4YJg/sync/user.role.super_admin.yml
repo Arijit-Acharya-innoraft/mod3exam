@@ -1,0 +1,29 @@
+uuid: a59ce1c4-3304-4cd1-9893-a0ccf875b8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.categories
+    - taxonomy.vocabulary.category_items
+  module:
+    - node
+    - taxonomy
+id: super_admin
+label: 'Super Admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer permissions'
+  - 'administer users'
+  - 'create categories content'
+  - 'create terms in category_items'
+  - 'delete any categories content'
+  - 'delete categories revisions'
+  - 'delete own categories content'
+  - 'delete terms in category_items'
+  - 'edit any categories content'
+  - 'edit own categories content'
+  - 'edit terms in category_items'
+  - 'revert categories revisions'
+  - 'view categories revisions'
+  - 'view user email addresses'
