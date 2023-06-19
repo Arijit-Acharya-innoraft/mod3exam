@@ -1,0 +1,8 @@
+uuid: d5943aaa-009f-422f-a029-4610c3ffb008
+langcode: en
+status: true
+dependencies: {  }
+id: secondary-menu
+label: 'Secondary menu'
+description: 'This menu is  for showing the different categories for the website. Clicking on each of them will take the user to the respective landing pages of each category'
+locked: false

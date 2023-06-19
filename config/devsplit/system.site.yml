@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 73f8aced-f973-406d-b5cb-9276ce184c62
+name: Drupal
+mail: arijit.acharya@innoraft.com
+slogan: ''
+page:
+  403: /node/1
+  404: /node/2
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

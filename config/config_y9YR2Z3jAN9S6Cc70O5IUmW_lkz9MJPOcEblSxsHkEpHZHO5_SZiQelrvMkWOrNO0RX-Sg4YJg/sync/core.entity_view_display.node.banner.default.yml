@@ -1,0 +1,30 @@
+uuid: ee20ee15-324c-4046-9ed1-f3ec5835e7ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.field_banner
+    - node.type.banner
+  module:
+    - entity_reference_revisions
+    - user
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_banner:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
